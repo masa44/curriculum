@@ -1,0 +1,62 @@
+
+.header {
+    width: 1000px;
+    display: flex;
+}
+
+.logo {
+    background-color: #add8e6;
+    width: 200px;
+    height: 120px;
+}
+
+img.headerLogo {
+    width: 200px;
+    height: 120px;
+}
+
+.box0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.wellcomeMessage {
+    background-color: #87ceeb;
+    width: 800px;
+    height: 60px;
+    display:flex;
+    justify-content:right;
+    align-items:center;
+}
+
+.lastLogin {
+    background-color: #00ffff;
+    width: 800px;
+    height: 60px;
+    display:flex;
+    justify-content:right;
+    align-items:center;
+}
+
+.main {
+    width: 1000px;
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #87ceeb;
+}
+
+td {
+    background-color: #e0ffff;
+}
+
+.footer {
+    background-color: #00ced1;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+}
