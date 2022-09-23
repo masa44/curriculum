@@ -1,0 +1,17 @@
+table {
+    width: 700px;
+    border-collapse: collapse;
+    border: solid 1px #d3d3d3;
+    text-align: center;
+}
+
+tr {
+    padding: 15px 15px;
+    border: solid 1px #d3d3d3;
+}
+
+th {
+    background-color: #dcdcdc; /* テーブルの１行目の背景色 */
+}
+
+  
