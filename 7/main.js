@@ -1,16 +1,17 @@
 // 問１
 let numbers = [2, 5, 12, 13, 15, 18, 22];
 //ここに答えを実装してください。↓↓↓
-let num = 0;
-for(let i = 0; i < numbers.length; i++) {
-	if(numbers[i] % 2 === 0) {
-		num = numbers[i];
-		isEven();
-	}
-}
+isEven();
 
 function isEven() {
-	console.log(num + 'は偶数です');
+	let num = 0;
+
+	for(let i = 0; i < numbers.length; i++) {
+		num = numbers[i];
+		if(num % 2 === 0) {
+			console.log(num + 'は偶数です');
+		}
+	}
 }
 
 
