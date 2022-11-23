@@ -1,0 +1,53 @@
+.box1 {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+h6 {
+    text-align: left;
+}
+
+.text_area {
+}
+
+.post_button {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.box2 {
+    width: 450px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.each_post {
+    display: block;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_name {
+    font-weight: bold;
+}
+
+.post_time {
+}
+
+.post_content {
+    margin-top: 5px;
+    background-color: beige;    
+}
+
+.delete_button {
+    text-align: right;
+}
+
